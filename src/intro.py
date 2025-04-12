@@ -1,6 +1,9 @@
+from IPython.display import clear_output
+
 class Intro:
     @staticmethod
     def create():
+        clear_output()
         print("""
 
 Это загрузчик защищённых медиа.
